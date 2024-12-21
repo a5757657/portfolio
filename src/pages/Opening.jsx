@@ -27,9 +27,9 @@ const Opening = () => {
   return (
     <div
       ref={OpeningRef}
-      className="absolute opacity-1 z-[99] top-0 left-0 w-[100vw] h-[100vh] bg-bgcolor flex justify-center items-center"
+      className="absolute opacity-1 z-[99] top-0 left-0 w-[100vw] h-[100vh] bg-bgcolor"
     >
-      <div className="circle scale-[3] size-[1000px] bg-white rounded-full  "></div>
+      <div className="absolute circle scale-3 size-[3000px] bg-white rounded-[50%] left-[50%] top-[50%] -translate-x-1/2 -translate-y-1/2"></div>
     </div>
   );
 };

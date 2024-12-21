@@ -171,7 +171,7 @@ const MainTitle = () => {
               onMouseEnter={textIn}
               onMouseLeave={textOut}
               style={{ WebkitTextStroke: "2px white" }}
-              className={`${t === "" ? "mx-5" : ""} opacity-100 text-transparent NexaHeavy`}
+              className={`${t === "" ? "sm:mx-5 mx-0" : ""} opacity-100 text-transparent NexaHeavy`}
               key={`${t}-${index}`}
             >
               {t}

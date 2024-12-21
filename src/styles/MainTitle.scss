@@ -7,6 +7,6 @@
     @apply text-[9vw] leading-[0.9]  text-center overflow-hidden flex justify-center gap-2 opacity-80;
   }
   .imgStyle {
-    @apply absolute  top-[50%] left-[50%] z-0 object-cover
+    @apply absolute  top-[50%] left-[50%] z-0 object-cover overflow-visible
   }
 }
