@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+// @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+
+@font-face {
+  font-family: NexaHeavy;
+  src: url(./assets/font/Nexa-Heavy.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: "Noto Sans TC", sans-serif;;
+  font-optical-sizing: auto;
+}
+
+#root {
+  position: relative;
+}
+
+.NexaHeavy {
+  font-family: NexaHeavy, "Noto Sans TC", sans-serif;;
+}
+
+.remove-scrolling {
+  height: 100% !important;
+}
+
+html.lenis,
+html.lenis body {
+  height: auto;
+  overflow: hidden;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
+}
+
+body {
+  @apply bg-bgcolor;
+}
+
+::selection {
+  color: orange;
+  background: linear-gradient(red, blue);
+}
