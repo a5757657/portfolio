@@ -5,7 +5,7 @@ import ScrollToPlugin from "gsap/ScrollToPlugin";
 
 gsap.registerPlugin(ScrollToPlugin, useGSAP);
 
-const arr = ["ABOUT", "WORK", "SIDE-PROJECT", "CONTACT ME"];
+const arr = ["ABOUT", "WORK", "SIDE-PROJECT", "CONTACT"];
 
 const NavBar = () => {
   const { contextSafe } = useGSAP();

@@ -67,7 +67,7 @@ const Work = () => {
   return (
     <>
       <div className="Section2 container p-10 flex flex-col mx-auto my-[200px]">
-        <Title titleRef={titleRef} title="Work" />
+        <Title titleRef={titleRef} title="WORK" />
       </div>
 
       <div ref={workRef} className="Work flex flex-row w-fit">
